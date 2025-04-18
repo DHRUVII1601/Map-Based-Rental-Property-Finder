@@ -1,0 +1,96 @@
+/* Navbar styling */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://th.bing.com/th/id/OIP.MPBE4H7zLC9hnyUJSh8hrwHaEJ?w=626&h=351&rs=1&pid=ImgDetMain') no-repeat center center fixed;
+    background-size: cover;
+    color: #f5f5f5;
+  }
+nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fafafa;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fcf8f8;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: white;
+  }
+  
+  /* Hero section */
+  .hero {
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.05); */
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 40px 20px;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.6);
+  }
+  
+  .hero h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Map section */
+  .map-section {
+    padding: 40px 20px;
+    text-align: center;
+    /* background: #c6b3c8; */
+  }
+  
+  .map-embed {
+    width: 100%;
+    max-width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Map Details Text */
+  .map-details {
+    max-width: 800px;
+    margin: 30px auto 0;
+    text-align: center;
+  }
+  
+  .map-details h2 {
+    font-size: 1.5rem;
+    color: #c7d0dd;
+    margin-bottom: 10px;
+  }
+  
+  .map-details p {
+    font-size: 1rem;
+    color: #f5efef;
+    line-height: 1.6;
+  }
+  
+  /* Footer */
+  footer {
+    background-color:rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+

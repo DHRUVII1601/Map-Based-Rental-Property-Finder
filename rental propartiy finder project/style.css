@@ -1,0 +1,103 @@
+body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: url('https://th.bing.com/th/id/OIP.MPBE4H7zLC9hnyUJSh8hrwHaEJ?w=626&h=351&rs=1&pid=ImgDetMain') no-repeat center center fixed;
+        background-size: cover;
+        color: #f5f5f5;
+    }
+  
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 30px;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    /* background-color: rgba(106, 181, 228, 0.5); */
+    background-color: (0, 0, 0, 0.6);
+    color: rgb(248, 246, 250);
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .slider {
+    overflow: hidden;
+    position: relative;
+    background-color: #f4fbfc;
+    padding: 10px 0;
+  }
+  
+  .slider-track {
+    display: flex;
+    width: fit-content;
+    animation: slide 60s linear infinite;
+  }
+  
+  .slider-track img {
+    width: 400px;
+    height: 300px;
+    margin: 0 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .slider-track img:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  
+  footer {
+    background-color:rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

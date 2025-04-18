@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center center/cover;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #ffd700;
+  }
+  
+  .hero {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 60px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .inquiry-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px 20px;
+  }
+  
+  .description {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+  }
+  
+  .bhk-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    flex-wrap: wrap;
+  }
+  
+  .bhk-section img {
+    width: 320px;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 10px;
+  }
+  
+  .bhk-text {
+    flex: 1;
+    margin-right: 20px;
+    color: #fff;
+  }
+  
+  .inquiry-form {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #333;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+    margin: 40px auto 0 auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .inquiry-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .inquiry-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .inquiry-form input,
+  .inquiry-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .inquiry-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+  }
+  
+  .inquiry-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color: white;
+    margin-top: 40px;
+  }
+  
+
+
+

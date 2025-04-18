@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Rental Property Finder</title>
+  <link rel="stylesheet" href="stylee.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo" onclick="location.href='index.html'">🏠 RentEasy</div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="properties.html">Properties</a></li>
+        <li><a href="map.html">Map View</a></li>
+        <li><a href="inquiry.html">Inquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to RentEasy</h1>
+    <p>Find your next rental property quickly and easily!</p>
+  </section>
+
+  <section class="slider-container">
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <div class="slider">
+      <div class="slide active">
+        <img src="https://th.bing.com/th/id/OIP.rpuW_WeAxlifdVNhIqZyXAHaE8?rs=1&pid=ImgDetMain" alt="Property 1" />
+        <p>Modern Apartment in Downtown</p>
+      </div>
+      <div class="slide">
+        <img src="https://th.bing.com/th/id/OIP.G_EUP4QWZF5DbMb2g4ZlKQHaE8?rs=1&pid=ImgDetMain" alt="Property 2" />
+        <p>Luxury Villa with Garden</p>
+      </div>
+      <div class="slide">
+        <img src="https://img.squareyards.com/secondaryPortal/638339281293200873-261023024209429.png" alt="Property 3" />
+        <p>Studio Apartment - Budget Friendly</p>
+      </div>
+      <div class="slide">
+        <img src="https://th.bing.com/th/id/OIP.x822a6nnTzqbAYvSLwkZ1QHaD2?w=576&h=300&rs=1&pid=ImgDetMain" alt="Property 4" />
+        <p>Spacious 3BHK with Balcony</p>
+      </div>
+    </div>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 RentEasy. All rights reserved.</p>
+    <p>Email: support@renteasy.com | Phone: +123-456-7890</p>
+  </footer>
+</body>
+</html>
+
+
+
